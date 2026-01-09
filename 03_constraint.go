@@ -10,6 +10,7 @@ func testConstraint() {
 	fmt.Println(Square(12342))
 }
 
+// ordered constraint
 func MaxC[T cmp.Ordered](a, b T) T {
 	if a > b {
 		return a

@@ -59,4 +59,17 @@ func Identity_string(value string) string {
 ```
 
 - this technique optimizes runtime performance but costs code size
- 
+
+## Limitations
+
+- **Generic methods** are not allowed will have to use generic functions
+- [limited interfence](./06_limits.go)
+- Can't specify operators only type constraints
+
+## Conclusion
+
+Generics mark a significant evolution in Go, enabling us to write flexible, type-safe, and reusable code without sacrificing the language's core principles of simplicity and performance
+
+Keep in mind trade-off and limitation of generics and dont overuse them to keep code readable. We all know DRY principle but sometimes a little copying is better
+
+**Thank you for reading my note about generics in golang**

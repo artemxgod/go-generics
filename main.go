@@ -6,4 +6,5 @@ func main() {
 	testConstraint()
 	testStructures()
 	testFlexibility()
+	testLimits()
 }
